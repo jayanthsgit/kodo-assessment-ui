@@ -31,7 +31,7 @@ const ManageList = () => {
       );
 
       useEffect(() => {
-        fetch('http://localhost:8081/data', {
+        fetch('https://kodo-assessment-api.herokuapp.com/data', {
           method: 'GET',
           //mode: 'no-cors',
           headers:{
