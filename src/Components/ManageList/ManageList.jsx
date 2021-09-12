@@ -31,13 +31,12 @@ const ManageList = () => {
       );
 
       useEffect(() => {
-        fetch('http://localhost:8081/data', {
+        fetch('https://kodo-assessment-api.herokuapp.com/data', {
           method: 'GET',
           //mode: 'no-cors',
           headers:{
-            "Access-Control-Allow-Origin": "http://localhost:8081",
+            "Access-Control-Allow-Origin": "https://kodo-assessment-api.herokuapp.com",
             "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
-            "Access-Control-Allow-Headers": "Content-Type"
           }
         }).then(response => response.json()).then(data => console.log('data', data)).catch(err=> console.log('err', err));
       }, [data]);
