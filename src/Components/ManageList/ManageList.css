@@ -1,0 +1,44 @@
+.container{
+    margin: 20px;
+}
+
+.table-styles{
+    margin: 0px 20px 0px 20px;
+}
+
+
+    
+  .pagination {
+    margin-top: 10px;
+  }
+
+  table {
+    border-spacing: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    }
+
+    tr{
+        border-bottom: 0;
+    }
+
+    th, td {
+        margin: 0;
+        padding: 0.5rem;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        min-width: 130px;
+    }
+
+    .search{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    .search-input{
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+        margin: 15px 0px 15px 15px;
+    }
